@@ -1,4 +1,4 @@
-public class Int{
+class Int{
     private int number = 0;
 
     public void increment(){
