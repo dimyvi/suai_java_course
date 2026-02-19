@@ -29,9 +29,11 @@ class Matrix{
 
     public Matrix product(Matrix anotherMatrix){
         Matrix productMatrix = new Matrix(this.n);
+
         for(int i = 0; i < mtx.length; i++){
             for(int j = 0; j < mtx[0].length; j++){
                 productMatrix.mtx[i][j] = 0;
+                
                 for(int k = 0; k < mtx.length; k++){
                     productMatrix.mtx[i][j] += mtx[i][k] * anotherMatrix.mtx[k][j];
                 }
@@ -48,6 +50,7 @@ class Matrix{
         return mtx[row][column];
     }
 
+    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < n; i++) {
