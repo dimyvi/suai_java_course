@@ -6,7 +6,9 @@
             "name": "Launch inheritance_lab3",
             "request": "launch",
             "mainClass": "application.inheritance_lab3",
-            "projectName": "lab3"
+            "projectName": "lab3",
+            "vmArgs": "-cp .:application:matrix:exception",
+            "console": "internalConsole"
         }
     ]
 }
