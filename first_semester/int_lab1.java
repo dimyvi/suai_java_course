@@ -38,9 +38,9 @@ class Int{
 
 public class int_lab1{
     public static void main (String args[]){
-        Int a = new Int(1);
-        Int b = new Int(1);
-        Int c = new Int(1);
+        Int a = new Int(0);
+        Int b = new Int(0);
+        Int c = new Int(0);
 
         b.increment();
 
@@ -56,14 +56,14 @@ public class int_lab1{
 
         a.substract(c);
 
-        System.out.println(a);
+        System.out.println("first" + "=" + a);
 
 
 
-        Int x = new Int(10);
-        Int y = new Int(5);
+        Int x = new Int(1011);
+        Int y = new Int(53);
 
         x.MyMethod(y);
-        System.out.println(x);
+        System.out.println("second" + "=" + x);
     }
 }

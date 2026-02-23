@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch inheritance_lab3",
+            "request": "launch",
+            "mainClass": "application.inheritance_lab3",
+            "projectName": "lab3"
+        }
+    ]
+}
